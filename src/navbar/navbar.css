@@ -1,0 +1,55 @@
+nav {
+  display: flex;
+  align-items: center;
+  margin-inline: 20px;
+  justify-content: space-between;
+  padding-block: 10px;
+  gap: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  text-align: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.brand img {
+  width: 50px;
+  height: 50px;
+}
+
+.searchbar {
+  flex: 0.8;
+  padding-block: 6px;
+  border: 1px solid white;
+  display: flex;
+  padding-inline: 6px;
+}
+
+.searchbarCategory {
+  border-right: 1px solid white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.searchbarField {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.searchbarField input {
+  all: unset;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+}
+
+.navend {
+  display: flex;
+}
